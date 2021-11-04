@@ -1,0 +1,164 @@
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    width: 100%;
+    background-color: #337ab7;
+    border-radius: 0px!important;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0!important;
+}
+
+#formularioSearch{
+    padding-top: 15px;
+}
+
+#formularioSearch button{
+    background-color: rgb(0, 0, 0);
+}
+
+.imagenInicio{
+    background-image: url("img/comics.jpg");
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.imagenInicio h2{
+    color: white;
+    padding-top: 1%;
+}
+
+.container-fluid{
+    padding: 0;
+    overflow: hidden; /* overflow oculta la parte que desborda */
+}
+
+.filaPresentacion{
+    padding-top: 5%;  /* margin se aplica fuera del contenedor y el padding se aplica dentro del contenedor */
+    background-color: #cdcdcd;
+}
+
+.filaCaracteristicas{
+    padding-top: 5%;
+}
+
+.filaBeneficios .row{
+    background-color: rgb(255, 103, 47);
+}
+
+.imagenComicsIndependientes{
+    float: left;
+    width: 15%;
+}
+
+.textoComicsIndependientes{
+    float: right;
+    width: 70%;
+    padding: 10px;
+}
+
+.imagenComicsFantasia{
+    float: right;
+    width: 15%;
+}
+
+.textoComicsFantasia{
+    float: left;
+    width: 70%;
+    padding: 10px;
+}
+
+/*call to action*/
+.bs-calltoaction{
+    position: relative;
+    width:auto;
+    padding: 15px 25px;
+    border: 1px solid black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;    
+}
+
+    .bs-calltoaction > .row{
+        display:table;
+        width: calc(100% + 30px);
+    }
+     
+        .bs-calltoaction > .row > [class^="col-"],
+        .bs-calltoaction > .row > [class*=" col-"]{
+            float:none;
+            display:table-cell;
+            vertical-align:middle;
+        }
+
+            .cta-contents{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+                .cta-title{
+                    margin: 0 auto 15px;
+                    padding: 0;
+                }
+
+                .cta-desc{
+                    padding: 0;
+                }
+
+                .cta-desc p:last-child{
+                    margin-bottom: 0;
+                }
+
+            .cta-button{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+
+@media (max-width: 991px){
+    .bs-calltoaction > .row{
+        display:block;
+        width: auto;
+    }
+
+        .bs-calltoaction > .row > [class^="col-"],
+        .bs-calltoaction > .row > [class*=" col-"]{
+            float:none;
+            display:block;
+            vertical-align:middle;
+            position: relative;
+        }
+
+        .cta-contents{
+            text-align: center;
+        }
+}
+
+
+.bs-calltoaction.bs-calltoaction-primary{
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+}
+
+
+
+.bs-calltoaction.bs-calltoaction-primary .cta-button .btn{
+    border-color:#fff;
+}
+
+
+section{
+    width: 100%;
+    background-color: #cdcdcd;
+}
+
+#contact-form , #botonEnviar{
+    padding-left: 3%;
+}
+
+#botonEnviar{
+    padding-top: 2%;
+    color: white;
+}
